@@ -25,7 +25,7 @@ word_file = open('hidden-words.txt','r') #give text file of hidden words to gues
 hidden_words = word_file.readlines()
 
 hidden_word = random.choice(hidden_words)
-print(hidden_word)
+
 
 
 def game_begins(char):
@@ -93,7 +93,7 @@ if flag == 1:
     print('----------------------------------------------------------------')
     print(' you won congrats pal')
     print('By the way if you are curious the hidden word was '+ hidden_word)
-    print(correct)
+    
     
 elif flag == 0:
     print('----------------------------------------------------------------')
